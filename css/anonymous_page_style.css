@@ -1,0 +1,128 @@
+body {
+    margin-top: 0;
+    background-color: #bbd5ce;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    position: absolute;
+    width: 1240px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.left_menu {
+    position: absolute;
+    width: 240px;
+    height: 100%;
+    float: left;
+
+}
+
+.content {
+    width: 1000px;
+    height: 100%;
+    float: right;
+    background-color: #e9e9e9;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.logo {
+    height: 60px;
+    width: 240px;
+}
+
+.avatar {
+    height: 64px;
+    width: 64px;
+    background-position: center;
+    background: transparent;
+    border: 1px solid #019858;
+    border-radius: 0px;
+    color: #019858;
+    padding: 0;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+.container_avatar {
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 75px;
+}
+
+.name {
+    position: absolute;
+    top: 92px;
+    left: 100px;
+    margin: auto;
+    font-size: 11px;
+    color: #aa0000;
+}
+
+
+.btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.btn_be_anonymous {
+    background-position: center;
+    background: #8723ac;
+    border-radius: 1em;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 4px 50px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn_be_anonymous:hover, .btn_be_anonymous:focus, .btn_be_anonymous:active {
+    color: white;
+    background: #aa5ac7;
+    border-radius: 1em;
+}
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+}
+
+hr {
+    color: #ff0707;
+}
+
+.menu {
+    padding-top: 30px;
+}
+
+.link a {
+    background: transparent;
+    border-radius: 0;
+    color: #525252;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.1s ease-in-out;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    display: block; 
+    text-align: left; 
+    height: 100%; 
+}
+
+.link a:hover, 
+.link a:focus, 
+.link a:active {
+    color: white;
+    background: #528d8d;
+}
+.btn_log_out {
+    margin-top: 50px;
+}
